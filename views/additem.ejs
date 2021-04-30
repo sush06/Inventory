@@ -1,0 +1,41 @@
+<html lang="en">
+    <head>
+        <title>Bookbub</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <!--
+            <link rel="stylesheet" href="styles.css">
+        -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+    </head>
+    <body>
+        <center><h4 class="c1">Add new item</h4>
+        <form action="/AddData" method="POST">
+            
+
+        <label>Book Id:</label>&nbsp;
+        <input type="number" placeholder="Enter book id" name="book_id"><br>
+
+        <label>Name:</label>&nbsp;
+        <input type="string" placeholder="Enter book name" name="name"><br>
+
+        <label>Genre:</label>&nbsp;
+        <input type="string" placeholder="Enter book genre" name="genre"><br>
+
+        <label>Stock:</label>&nbsp;
+        <input type="number" placeholder="Enter book stock" name="stock"><br>
+
+        <label>Price:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="number" placeholder="Enter book price" name="price"><br><br>
+        
+        <button type="submit">Submit</button><br>
+        </form>
+        </body>
+        <a href="/" class="c2">Home</a><br><br>
+        </html></center>
+    </body>
+</html>

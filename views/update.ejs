@@ -1,0 +1,29 @@
+<html lang="en">
+    <head>
+        <title>Bookbub</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <!--
+            <link rel="stylesheet" href="styles.css">
+        -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+    </head>
+    <body>
+        <center><h4 class="c1">Update quantity of item</h4>
+        <form method="POST" action="/update">
+            <label>Book Id:</label>&nbsp;
+            <input type="number" placeholder="Enter Book Id" name="id"><br>
+
+            <label>New Stock:</label>&nbsp;
+            <input type="number" placeholder="Enter quantity" name="stock"><br><br>
+
+            <button id="update">Update</button>
+        </form>
+        <a href="/" class="c2">Home</a>
+        </center>
+    </body>
+</html>
